@@ -1,0 +1,250 @@
+/*Make sure your selectors are very specific, you can accidentally overide builder css if you are not careful*/
+/*Do not edit positioning, width, height in CSS, set that in the markup*/
+/*CSS Changes, are somewhat permanent, user cannot change these, they can overide them via element inline style, but thats about it*/
+
+/* site */
+/*Make sure your selectors are very specific, you can accidentally overide builder css if you are not careful*/
+/*Do not edit positioning, width, height in CSS, set that in the markup*/
+/*CSS Changes, are somewhat permanent, user cannot change these, they can overide them via element inline style, but thats about it*/
+
+/* site */
+
+.blank.default{
+	background: url('assets/blank-bg.jpg') top center;
+}
+.blank.default .text-plugin{
+	font-family: 'Carme', sans-serif;
+	font-size: 16px;
+	color: #fff;
+}
+.blank.default #footer .global-region-inner,
+.blank.default #header .global-region-inner{
+	background: rgba(119,119,119,0.75);
+}
+
+.blank.default h1,
+.blank.default h2,
+.blank.default h3,
+.blank.default h4,
+.blank.default h5,
+.blank.default h6{
+	font-family: 'Carme', sans-serif;
+	font-weight: normal;
+	color: #fff;
+}
+.blank.default h1{
+	font-size: 30px;
+}
+.blank.default h2{
+	font-size: 48px;
+	letter-spacing: -2px;
+}
+.blank.default h3{
+	font-size: 40px;
+}
+.blank.default h4{
+	font-size: 36px;
+}
+.blank.default h5{
+	font-size: 30px;
+}
+.blank.default h6{
+	font-size: 20px;
+}
+.blank.default .xxl-text{
+	font-size: 26px;
+}
+.blank.default .xl-text{
+	font-size: 20px;
+}
+.blank.default .small-text{
+	font-size: 14px;
+}
+.blank.default .xs-text{
+	font-size: 11px;
+}
+.blank.default .bg-text{
+	background: #cacaca;
+	padding: 15px;
+}
+.blank.default .bg-set{
+	background: url('assets/blank-bg-settings.png') no-repeat;
+}
+.blank.default .center-align{
+	text-align: center;
+}
+.blank.default .right-align{
+	text-align: right;
+}
+.blank.default .white{
+	color: #ffffff;
+}
+
+
+/****************/
+/* neo main nav */
+/****************/
+.blank.default .navigation-2-plugin.main-nav-fixed-plugin .neo-asset-inner > ul > li {
+	width: 160px;
+}
+.blank.default .navigation-2-plugin .neo-asset-inner ul {
+	font-family: Carme, sans-serif;
+}
+.blank.default .navigation-2-plugin .neo-asset-inner > ul > li {
+	padding-top: 3px;
+	padding-right: 0;
+	padding-bottom: 3px;
+	padding-left: 0;
+	margin-right: 10px;
+	margin-bottom: 0;
+	background-color: #cacaca;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	text-align: center;
+
+	border-left-color: rgb(51, 51, 51);
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-color: rgb(51, 51, 51);
+	border-right-style: none;
+	border-right-width: 0;
+	border-bottom-color: rgb(51, 51, 51);
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-top-color: rgb(51, 51, 51);
+	border-top-style: none;
+	border-top-width: 0;
+	border-top-left-radius:0;
+	border-top-right-radius:0;
+	border-bottom-left-radius:0;
+	border-bottom-right-radius:0;
+}
+.blank.default .navigation-2-plugin .neo-asset-inner > ul > li > a {
+	color: #fff;
+}
+.blank.default .navigation-2-plugin .neo-asset-inner > ul > li.k-state-hover {
+	background-color: #ababab;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+}
+.blank.default .navigation-2-plugin .neo-asset-inner > ul > li.k-state-hover > a {
+	color: #fff;
+}
+.blank.default .navigation-2-plugin .neo-asset-inner > ul > li.k-state-active {
+	background-color: #ababab;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+}
+.blank.default .navigation-2-plugin .neo-asset-inner > ul > li.k-state-active > a {
+	color: #fff;
+}
+
+/***************/
+/* neo sub nav */
+/***************/
+.blank.default .navigation-2-plugin.sub-nav-fixed-plugin ul ul > li {
+width: 130px;
+}
+.blank.default .navigation-2-plugin ul ul > li {
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	margin-bottom: 0;
+	background-color: #cacaca;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	font-family: 'Carme', sans-serif;
+	text-align: left;
+
+	border-left-color: rgb(51, 51, 51);
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-color: rgb(51, 51, 51);
+	border-right-style: none;
+	border-right-width: 0;
+	border-bottom-color: #fff;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-top-color: rgb(51, 51, 51);
+	border-top-style: none;
+	border-top-width: 0;
+	border-top-left-radius:0;
+	border-top-right-radius:0;
+	border-bottom-left-radius:0;
+	border-bottom-right-radius:0;
+}
+.blank.default .navigation-2-plugin ul ul > li > a {
+	color: #fff;
+}
+.blank.default .navigation-2-plugin ul ul > li.k-state-hover {
+	background-color: #ababab;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: 'Carme', sans-serif;
+	text-align: left;
+}
+.blank.default .navigation-2-plugin ul ul > li.k-state-hover > a {
+	color: #fff;
+}
+.blank.default .navigation-2-plugin ul ul > li.k-state-active {
+	background-color: #ababab;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: 'Carme', sans-serif;
+	text-align: left;
+}
+.blank.default .navigation-2-plugin ul ul > li.k-state-active > a {
+	color: #fff;
+} 
+
+
+/* CONTACT */
+/*header*/
+.blank.default .form-plugin .neo-asset-inner{
+	background: #cacaca;
+}
+
+/* labels style */
+.blank.default .web_com_custom_form label{
+	font-weight: normal;
+	margin-bottom: 0;
+	color: #fff;
+}
+
+/*CUSTOM*/
+/* first & last name */
+.blank.default .web_com_custom_form .FirstName label,
+.blank.default .web_com_custom_form .LastName label{
+	font-size: 12px !important;
+	color: #fff;
+}
+.blank.default .web_com_custom_form input[type='text'],
+.blank.default .web_com_custom_form textarea{
+	border-radius: 4px !important;
+	border: 2px solid #dadada;
+	background:  #fff; 
+}
+
+.blank.default .web_com_custom_form input[type='submit']{
+	color: #fff;
+	background: #000; 
+	font-size: 16px;
+	padding: 3px 25px;
+	display: block;
+	margin: 0 auto;
+	border: 1px solid #fff;
+	border-radius: 5px;
+}
+
+.blank.default textarea.form-element{
+	height: 70px;
+}

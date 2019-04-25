@@ -1,0 +1,6 @@
+# Robots.txt file from http://www.0438f06.netsolhost.com
+
+Sitemap: http://www.0438f06.netsolhost.com/sitemap.xml
+
+User-agent: *
+Disallow:

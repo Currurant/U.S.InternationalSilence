@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html>
+<head> 
+ <meta name="keywords" content="" /> 
+ <meta name="description" content="" /> 
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+ <title>Blank Template</title> 
+ <link href="site.css" rel="stylesheet" type="text/css" /> 
+ <link href="//fonts.googleapis.com/css?family=Carme" rel="stylesheet" type="text/css" /> 
+ <link rel="stylesheet" type="text/css" href="//assets.neo.registeredsite.com/libs/libs.css?ct=1556065819860" /> 
+ <link rel="stylesheet" type="text/css" href="//assets.neo.registeredsite.com/plugins/neo.css?ct=1556065819860" /> 
+ <script type="text/javascript">
+  var builderSettings = {
+    appRoot: '//app.neo.registeredsite.com/neo/',
+    appRelativePath: '/neo',
+    assetsRoot: '//assets.neo.registeredsite.com',
+    repositoryRoot: '//repository.neo.registeredsite.com',
+    spRoot: '//repository.neo.registeredsite.com/starting-points',
+    usersRoot: '//users.neo.registeredsite.com',
+    sitesearchUrl: '//sitesearch.services.matrixbuilder.com/sitesearch/search',
+    siteDomain: '0438f06.netsolhost.com',
+    isBuilder : false,
+    isPreview : false
+  };
+</script> 
+</head><body class="neo-publish">
+ <!-- New builder template -->
+ <div id="includes" style="display: none">
+  <script type="text/javascript" src="//assets.neo.registeredsite.com/libs/libs.js?ct=1556065819860"></script>
+  <script type="text/javascript" src="//assets.neo.registeredsite.com/libs/tinymce/4.1.7/tinymce.min.js?ct=1556065819860"></script>
+  <div class="sitesearch-plugin-inner"> 
+   <div class="sitesearch-ng" data-ng-controller="neo.SiteSearchPlugin.ngPluginController"> 
+    <div class="ss-container ss-style-1 sitesearch-id-1" style="width:100%"> 
+     <form> 
+      <span class="ss-loading" style="display: none;"></span> 
+      <input class="ss-text" type="text" value="" placeholder="Search ..." /> 
+      <input class="ss-submit" type="submit" value="" /> 
+     </form> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="neo-sitesearch-result-modal" class="modal-wrapper modal-effect"> 
+   <div class="modal-window"> 
+    <div class="modal-top">
+     Search Results
+    </div> 
+    <div class="modal-bottom"></div> 
+    <div class="modal-x" data-ng-click="closeSearchResult()"></div> 
+   </div> 
+  </div> 
+  <script type="text/webcom-template" id="form-plugin-inner">
+    <div class="form-ng remove-on-save">
+      <div id="{{FormId}}">inject webcom-form here</div>
+    </div>
+</script> 
+  <div class="text-plugin-inner"> 
+   <div class="text-ng tiny text-plugin"></div> 
+  </div>
+  <div class="map-plugin-inner"> 
+   <div class="map-ng remove-on-save"> 
+    <div class="mapPlugin"> 
+     <div class="neo-map-address-show"></div> 
+     <div class="neo-mapquest"></div> 
+     <div class="neo-map-direction"></div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="share-plugin-inner"> 
+   <div class="fb-share-button-placeholder" data-type="button"></div> 
+  </div> 
+  <div class="google-share-plugin-inner"> 
+   <div class="gplus-data" data-action="share"> 
+    <div class="g-plus" data-action="share"></div> 
+   </div> 
+  </div> 
+  <div class="google-plusone-plugin-inner"> 
+   <div class="gplusone-data"> 
+    <div class="g-plusone"></div> 
+   </div> 
+  </div> 
+  <div class="tap-plugin-inner"> 
+   <div class="product-data"> 
+    <!-- The product element will be here --> 
+   </div> 
+  </div> 
+  <script type="text/javascript" src="//assets.neo.registeredsite.com/plugins/neo.js?ct=1556065819860"></script>
+ </div>
+ <!--End Includes-->
+ <div id="canvas" data-ng-app="webcomApp" class="blank default sp-supports-nav2" style="margin: 0px; background-image: url(&quot;//users.neo.registeredsite.com/6/0/3/23077306/assets/question_mark_PNG128.png&quot;); background-repeat: repeat; background-position: 0% 0%; opacity: 1; min-height: 4327px;"> 
+  <div id="top-area" style="height: 0px; width: 960px;" class=""> 
+  </div> 
+  <div id="page-wrapper"> 
+   <div class="global-region top header-bg" id="header" style="display: block;background-image: none;"> 
+    <div class="global-region-inner" style="position: relative; margin: 0px auto; background-color: rgb(204, 204, 204); background-image: url(&quot;//users.neo.registeredsite.com/6/0/3/23077306/assets/adventure-aircraft-airshipddddddddd.jpg&quot;); background-repeat: no-repeat; background-position: 50% 0%; opacity: 1; height: 265px; width: 962px;" data-background-indexes="{&quot;global&quot;:{&quot;header&quot;:{&quot;color&quot;:{&quot;index&quot;:46}},&quot;footer&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}}},&quot;local&quot;:[{&quot;pageId&quot;:13038678,&quot;page&quot;:{&quot;color&quot;:{&quot;index&quot;:0}},&quot;body&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}}},{&quot;pageId&quot;:13038680,&quot;page&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}},&quot;body&quot;:{&quot;color&quot;:{&quot;index&quot;:29}}},{&quot;pageId&quot;:13117479,&quot;page&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}},&quot;body&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}}},{&quot;pageId&quot;:13117482,&quot;page&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}},&quot;body&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}}},{&quot;pageId&quot;:13117481,&quot;page&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}},&quot;body&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}}}]}" data-background-custom-colors="[]"> 
+     <div class="neo-asset image-plugin" style="position: absolute; width: 213px; left: 25px; height: 137px; top: 23px;" data-module-class="neo.ImageModule" data-settings="{&quot;css&quot;:{&quot;borderTopStyle&quot;:&quot;none&quot;,&quot;borderBottomStyle&quot;:&quot;none&quot;,&quot;borderLeftStyle&quot;:&quot;none&quot;,&quot;borderRightStyle&quot;:&quot;none&quot;,&quot;borderAllStyle&quot;:&quot;none&quot;,&quot;borderAllWidth&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderTopColor&quot;:&quot;#333333&quot;,&quot;borderLeftColor&quot;:&quot;#333333&quot;,&quot;borderBottomColor&quot;:&quot;#333333&quot;,&quot;borderRightColor&quot;:&quot;#333333&quot;,&quot;borderAllColor&quot;:&quot;#333333&quot;,&quot;borderAllRadius&quot;:null,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;paddingAll&quot;:null,&quot;paddingTop&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;0px 0px 0 0 rgba(0,0,0,0.5)&quot;},&quot;bgColor&quot;:&quot;rgba(255, 255, 255, 0)&quot;,&quot;backgroundOpacity&quot;:100,&quot;shadowColor&quot;:&quot;rgba(0,0,0,0.5)&quot;,&quot;backgroundShadowAngle&quot;:140,&quot;backgroundShadowOffset&quot;:0}" id="asset-1554869645367" data-original-src="http://app.neo.registeredsite.com/neo/asset/image?contentType=image/jpeg&amp;fileName=silence-2054839_1280.jpg&amp;accountId=411937" data-image-properties="{&quot;name&quot;:&quot;&quot;,&quot;keywords&quot;:&quot;&quot;,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;&quot;,&quot;imageFx&quot;:{&quot;brightness&quot;:0,&quot;contrast&quot;:0,&quot;hue&quot;:0,&quot;saturation&quot;:0,&quot;scale&quot;:&quot;0.2795031055900621&quot;,&quot;red&quot;:255,&quot;green&quot;:255,&quot;blue&quot;:255,&quot;rotate&quot;:0,&quot;flippedHorizontally&quot;:false,&quot;flippedVertically&quot;:false}}" data-new-scale="0.2795031055900621" data-readonly-scale="0.2795031055900621" data-bmp-x="125" data-bmp-y="66" data-readonly-x="125" data-readonly-y="66" data-bmp-rotation="0" data-flipped-vertical="false" data-flipped-horizontal="false" data-edited-image-src="temp/asset-1554869645367-edited-1.png" data-symlink-name="asset-1554869645367.png"> 
+      <div class="neo-asset-inner" style="background-color: rgba(255, 255, 255, 0); border-color: rgb(51, 51, 51); opacity: 1; border-style: none; background-image: none; box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 0px 0px;"> 
+       <img src="assets/asset-1554869645367.png?v=0.13853062821587803" alt="" style="display: inline;" /> 
+      </div> 
+     </div> 
+     <div class="neo-asset text-plugin" style="position: absolute; width: 640px; right: 30px; height: auto; top: 12px;" data-module-class="neo.TextModule" data-settings="{&quot;css&quot;:{&quot;borderTopStyle&quot;:null,&quot;borderBottomStyle&quot;:null,&quot;borderLeftStyle&quot;:null,&quot;borderRightStyle&quot;:null,&quot;borderAllStyle&quot;:&quot;none&quot;,&quot;borderAllWidth&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderTopColor&quot;:&quot;#ffffff&quot;,&quot;borderLeftColor&quot;:&quot;#ffffff&quot;,&quot;borderBottomColor&quot;:&quot;#ffffff&quot;,&quot;borderRightColor&quot;:&quot;#ffffff&quot;,&quot;borderAllColor&quot;:&quot;#ffffff&quot;,&quot;borderAllRadius&quot;:null,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;paddingAll&quot;:null,&quot;paddingTop&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;0px 0px 0 0 rgba(0,0,0,0.5)&quot;},&quot;bgColor&quot;:&quot;rgba(255, 255, 255, 0)&quot;,&quot;backgroundOpacity&quot;:100,&quot;shadowColor&quot;:&quot;rgba(0,0,0,0.5)&quot;,&quot;backgroundShadowAngle&quot;:140,&quot;backgroundShadowOffset&quot;:0}" id="asset-1554869555106"> 
+      <div class="neo-asset-inner mCS_destroyed" style="background-color: rgba(255, 255, 255, 0); position: relative; opacity: 1; border-style: none; border-color: rgb(255, 255, 255); background-image: none; box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 0px 0px;" id="asset-1554869555106-neo-asset-inner" spellcheck="false"> 
+       <p class="small-text right-align">FInal Project for Education 202: Social Justice at UIUC</p> 
+      </div> 
+     </div> 
+     <div class="neo-asset text-plugin" style="position: absolute; width: 640px; left: 312px; height: auto; top: 86px;" data-module-class="neo.TextModule" data-settings="{&quot;css&quot;:{&quot;borderTopStyle&quot;:&quot;none&quot;,&quot;borderBottomStyle&quot;:&quot;none&quot;,&quot;borderLeftStyle&quot;:&quot;none&quot;,&quot;borderRightStyle&quot;:&quot;none&quot;,&quot;borderAllStyle&quot;:&quot;none&quot;,&quot;borderAllWidth&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderTopColor&quot;:&quot;#ffffff&quot;,&quot;borderLeftColor&quot;:&quot;#ffffff&quot;,&quot;borderBottomColor&quot;:&quot;#ffffff&quot;,&quot;borderRightColor&quot;:&quot;#ffffff&quot;,&quot;borderAllColor&quot;:&quot;#ffffff&quot;,&quot;borderAllRadius&quot;:null,&quot;borderTopLeftRadius&quot;:20,&quot;borderTopRightRadius&quot;:20,&quot;borderBottomLeftRadius&quot;:20,&quot;borderBottomRightRadius&quot;:20,&quot;paddingAll&quot;:null,&quot;paddingTop&quot;:1,&quot;paddingBottom&quot;:1,&quot;paddingLeft&quot;:1,&quot;paddingRight&quot;:1,&quot;boxShadow&quot;:&quot;6px 8px 0 0 rgba(0,0,0,0.5)&quot;,&quot;backgroundRepeat&quot;:&quot;no-repeat&quot;},&quot;bgColor&quot;:&quot;rgb(173, 95, 95)&quot;,&quot;backgroundOpacity&quot;:100,&quot;shadowColor&quot;:&quot;rgba(0,0,0,0.5)&quot;,&quot;backgroundShadowAngle&quot;:140,&quot;backgroundShadowOffset&quot;:10,&quot;backgroundImageUrl&quot;:&quot;//users.neo.registeredsite.com/6/0/3/23077306/assets/adventure-aircraft-airship-92962.jpg&quot;,&quot;backgroundHorizontalPosition&quot;:&quot;left&quot;,&quot;backgroundVerticalPosition&quot;:&quot;top&quot;}" id="asset-1554869514516"> 
+      <div class="neo-asset-inner mCS_destroyed" style="background-color: rgb(173, 95, 95); position: relative; opacity: 1; border-style: none; border-color: rgb(255, 255, 255); border-radius: 20px; padding: 1px; background-image: url(&quot;//users.neo.registeredsite.com/6/0/3/23077306/assets/adventure-aircraft-airship-92962.jpg&quot;); background-repeat: no-repeat; background-position: left top; box-shadow: rgba(0, 0, 0, 0.5) 6px 8px 0px 0px;" id="asset-1554869514516-neo-asset-inner" spellcheck="false"> 
+       <h1>International Silence in U.S. colleges</h1> 
+      </div> 
+     </div> 
+     <div class="neo-asset navigation-2-plugin main-nav-fixed-plugin" style="height: 40px; position: absolute; left: 34px; width: 906px; top: 184px;" data-module-class="neo.Navigation2Module" data-settings="{&quot;css&quot;:{&quot;borderTopStyle&quot;:&quot;solid&quot;,&quot;borderBottomStyle&quot;:&quot;solid&quot;,&quot;borderLeftStyle&quot;:&quot;solid&quot;,&quot;borderRightStyle&quot;:&quot;solid&quot;,&quot;borderAllStyle&quot;:&quot;solid&quot;,&quot;borderAllWidth&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderTopColor&quot;:&quot;rgba(125,81,81,1)&quot;,&quot;borderLeftColor&quot;:&quot;rgba(125,81,81,1)&quot;,&quot;borderBottomColor&quot;:&quot;rgba(125,81,81,1)&quot;,&quot;borderRightColor&quot;:&quot;rgba(125,81,81,1)&quot;,&quot;borderAllColor&quot;:&quot;rgba(125,81,81,1)&quot;,&quot;borderAllRadius&quot;:null,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;paddingAll&quot;:null,&quot;paddingTop&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;8px 9px 0 0 rgba(87,57,57,1)&quot;,&quot;backgroundRepeat&quot;:&quot;no-repeat&quot;},&quot;bgColor&quot;:&quot;rgb(199, 50, 50)&quot;,&quot;backgroundOpacity&quot;:100,&quot;shadowColor&quot;:&quot;rgba(87,57,57,1)&quot;,&quot;backgroundShadowAngle&quot;:140,&quot;backgroundShadowOffset&quot;:12,&quot;backgroundImageUrl&quot;:&quot;//users.neo.registeredsite.com/6/0/3/23077306/assets/adventure-aircraft-airship-46908.jpg&quot;,&quot;backgroundHorizontalPosition&quot;:&quot;left&quot;,&quot;backgroundVerticalPosition&quot;:&quot;top&quot;}" id="asset-1554870175676" data-region="header"> 
+      <style id="custom-style-for-asset-1554870175676">   
+                              /****************/
+                              /* neo main nav */
+                              /****************/
+                              #asset-1554870175676.main-nav-fixed-plugin .neo-asset-inner > ul > li {
+                                width: 160px;
+                              }
+                              #asset-1554870175676 .neo-asset-inner > ul > li {
+                                padding-top: 3px;
+                                padding-right: 0;
+                                padding-bottom: 3px;
+                                padding-left: 0;
+                                margin-right: 10px;
+                                margin-bottom: 0;
+                                background-color: rgb(66, 38, 38);
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 20px;
+                                font-family: "Default Font Family";
+                                text-align: center;
+
+                                border-left-color: rgb(51, 51, 51);
+                                border-left-style: none;
+                                border-left-width: 0;
+                                border-right-color: rgb(51, 51, 51);
+                                border-right-style: none;
+                                border-right-width: 0;
+                                border-bottom-color: rgb(51, 51, 51);
+                                border-bottom-style: none;
+                                border-bottom-width: 0;
+                                border-top-color: rgb(51, 51, 51);
+                                border-top-style: none;
+                                border-top-width: 0;
+                                border-top-left-radius:0;
+                                border-top-right-radius:0;
+                                border-bottom-left-radius:0;
+                                border-bottom-right-radius:0;
+
+                                -moz-box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
+                                -webkit-box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
+                                box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
+                              }
+                              #asset-1554870175676 .neo-asset-inner > ul > li > a {
+                                color: rgb(255, 255, 255);
+                              }
+                              #asset-1554870175676 .neo-asset-inner > ul > li.k-state-hover {
+                                padding-top: 3px;
+                                padding-right: 0;
+                                padding-bottom: 3px;
+                                padding-left: 0;
+                                background-color: rgb(25, 10, 10);
+                                font-style: normal;
+                                font-weight: bold;
+                                font-size: 20px;
+                                font-family: "Default Font Family";
+                                text-align: center;
+
+                                border-left-color: rgb(51, 51, 51);
+                                border-left-style: none;
+                                border-left-width: 0;
+                                border-right-color: rgb(51, 51, 51);
+                                border-right-style: none;
+                                border-right-width: 0;
+                                border-bottom-color: rgb(51, 51, 51);
+                                border-bottom-style: none;
+                                border-bottom-width: 0;
+                                border-top-color: rgb(51, 51, 51);
+                                border-top-style: none;
+                                border-top-width: 0;
+                                border-top-left-radius:0;
+                                border-top-right-radius:0;
+                                border-bottom-left-radius:0;
+                                border-bottom-right-radius:0;
+
+                                -moz-box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
+                                -webkit-box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
+                                box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
+                              }
+                              #asset-1554870175676 .neo-asset-inner > ul > li.k-state-hover > a {
+                                color: rgb(255, 255, 255);
+                              }
+                              #asset-1554870175676 .neo-asset-inner > ul > li.k-state-active {
+                                padding-top: 3px;
+                                padding-right: 0;
+                                padding-bottom: 3px;
+                                padding-left: 0;
+                                background-color: rgb(89, 53, 53);
+                                font-style: normal;
+                                font-weight: bold;
+                                font-size: 20px;
+                                font-family: "Default Font Family";
+                                text-align: center;
+
+                                border-left-color: rgb(51, 51, 51);
+                                border-left-style: none;
+                                border-left-width: 0;
+                                border-right-color: rgb(51, 51, 51);
+                                border-right-style: none;
+                                border-right-width: 0;
+                                border-bottom-color: rgb(51, 51, 51);
+                                border-bottom-style: none;
+                                border-bottom-width: 0;
+                                border-top-color: rgb(51, 51, 51);
+                                border-top-style: none;
+                                border-top-width: 0;
+                                border-top-left-radius:0;
+                                border-top-right-radius:0;
+                                border-bottom-left-radius:0;
+                                border-bottom-right-radius:0;
+
+                                -moz-box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
+                                -webkit-box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
+                                box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
+                              }
+                              #asset-1554870175676 .neo-asset-inner > ul > li.k-state-active > a {
+                                color: rgb(255, 255, 255);
+                              }
+                              /***************/
+                              /* neo sub nav */
+                              /***************/
+                              #asset-1554870175676.sub-nav-fixed-plugin ul ul > li {
+                                width: 130px;
+                              }
+                              #asset-1554870175676 ul ul > li {
+                                padding-top: 10px;
+                                padding-right: 10px;
+                                padding-bottom: 10px;
+                                padding-left: 10px;
+                                margin-bottom: 0;
+                                background-color: rgb(66, 38, 38);
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 12px;
+                                font-family: "Default Font Family";
+                                text-align: left;
+
+                                border-left-color: rgb(51, 51, 51);
+                                border-left-style: none;
+                                border-left-width: 0;
+                                border-right-color: rgb(51, 51, 51);
+                                border-right-style: none;
+                                border-right-width: 0;
+                                border-bottom-color: rgb(255, 255, 255);
+                                border-bottom-style: solid;
+                                border-bottom-width: 1px;
+                                border-top-color: rgb(51, 51, 51);
+                                border-top-style: none;
+                                border-top-width: 0;
+                                border-top-left-radius:0;
+                                border-top-right-radius:0;
+                                border-bottom-left-radius:0;
+                                border-bottom-right-radius:0;
+
+                                -moz-box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
+                                -webkit-box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
+                                box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
+                              }
+                              #asset-1554870175676 ul ul > li > a {
+                                color: rgb(255, 255, 255);
+                              }
+                              #asset-1554870175676 ul ul > li.k-state-hover {
+                                padding-top: 10px;
+                                padding-right: 10px;
+                                padding-bottom: 10px;
+                                padding-left: 10px;
+                                background-color: rgb(25, 10, 10);
+                                font-style: normal;
+                                font-weight: bold;
+                                font-size: 12px;
+                                font-family: "Default Font Family";
+                                text-align: left;
+
+                                border-left-color: rgb(51, 51, 51);
+                                border-left-style: none;
+                                border-left-width: 0;
+                                border-right-color: rgb(51, 51, 51);
+                                border-right-style: none;
+                                border-right-width: 0;
+                                border-bottom-color: rgb(255, 255, 255);
+                                border-bottom-style: solid;
+                                border-bottom-width: 1px;
+                                border-top-color: rgb(51, 51, 51);
+                                border-top-style: none;
+                                border-top-width: 0;
+                                border-top-left-radius:0;
+                                border-top-right-radius:0;
+                                border-bottom-left-radius:0;
+                                border-bottom-right-radius:0;
+
+                                -moz-box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
+                                -webkit-box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
+                                box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
+                              }
+                              #asset-1554870175676 ul ul > li.k-state-hover > a {
+                                color: rgb(255, 255, 255);
+                              }
+                              #asset-1554870175676 ul ul > li.k-state-active {
+                                padding-top: 10px;
+                                padding-right: 10px;
+                                padding-bottom: 10px;
+                                padding-left: 10px;
+                                background-color: rgb(89, 53, 53);
+                                font-style: normal;
+                                font-weight: bold;
+                                font-size: 12px;
+                                font-family: "Default Font Family";
+                                text-align: left;
+
+                                border-left-color: rgb(51, 51, 51);
+                                border-left-style: none;
+                                border-left-width: 0;
+                                border-right-color: rgb(51, 51, 51);
+                                border-right-style: none;
+                                border-right-width: 0;
+                                border-bottom-color: rgb(255, 255, 255);
+                                border-bottom-style: solid;
+                                border-bottom-width: 1px;
+                                border-top-color: rgb(51, 51, 51);
+                                border-top-style: none;
+                                border-top-width: 0;
+                                border-top-left-radius:0;
+                                border-top-right-radius:0;
+                                border-bottom-left-radius:0;
+                                border-bottom-right-radius:0;
+
+                                -moz-box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
+                                -webkit-box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
+                                box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
+                              }
+                              #asset-1554870175676 ul ul > li.k-state-active > a {
+                                color: rgb(255, 255, 255);
+                              }
+                          </style> 
+      <div class="neo-asset-inner" style="background-color: rgb(199, 50, 50); border-color: rgb(125, 81, 81); opacity: 1; border-style: solid; background-image: url(&quot;//users.neo.registeredsite.com/6/0/3/23077306/assets/adventure-aircraft-airship-46908.jpg&quot;); background-repeat: no-repeat; background-position: left top; box-shadow: rgb(87, 57, 57) 8px 9px 0px 0px;"> 
+       <ul data-kendo-menu="" data-k-orientation="'horizontal'" class="k-widget k-reset k-header k-menu k-menu-horizontal" data-role="menu" role="menubar" tabindex="0"> 
+        <li class="k-item k-state-default k-first k-state-active selected-page k-state-highlight" id="page-13117480-822422613874" role="menuitem"><a class="k-link" href="index.html">Overview</a></li> 
+        <li class="k-item k-state-default" id="page-13117479-780167365654" role="menuitem"><a class="k-link" href="facts-and-statistics.html">Facts and Statistics</a></li> 
+        <li class="k-item k-state-default" id="page-13117482-325366393712" role="menuitem"><a class="k-link" href="survey.html">Survey</a></li> 
+        <li class="k-item k-state-default" id="page-13117481-19837861284" role="menuitem"><a class="k-link" href="what-s-next.html">What's next</a></li> 
+        <li class="k-item k-state-default k-last" id="page-13117483-822712632289" role="menuitem"><a class="k-link" href="acknowledgement.html">Acknowledgement</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="global-region center content-bg" id="content"> 
+    <div class="global-region-inner" style="position: relative; margin: 0px auto; height: 3870px; width: 962px;"> 
+     <div class="neo-asset image-plugin" style="width: 250px; top: 3599px; left: 344.5px; position: absolute; z-index: 398;" id="asset-1555882834435" data-module-class="neo.ImageModule" data-settings="{&quot;css&quot;:{&quot;borderTopStyle&quot;:null,&quot;borderBottomStyle&quot;:null,&quot;borderLeftStyle&quot;:null,&quot;borderRightStyle&quot;:null,&quot;borderAllStyle&quot;:&quot;none&quot;,&quot;borderAllWidth&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderTopColor&quot;:&quot;#333333&quot;,&quot;borderLeftColor&quot;:&quot;#333333&quot;,&quot;borderBottomColor&quot;:&quot;#333333&quot;,&quot;borderRightColor&quot;:&quot;#333333&quot;,&quot;borderAllColor&quot;:&quot;#333333&quot;,&quot;borderAllRadius&quot;:null,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;paddingAll&quot;:null,&quot;paddingTop&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;0px 0px 0 0 rgba(0,0,0,0.5)&quot;},&quot;bgColor&quot;:&quot;rgba(255, 255, 255, 0)&quot;,&quot;backgroundOpacity&quot;:100,&quot;shadowColor&quot;:&quot;rgba(0,0,0,0.5)&quot;,&quot;backgroundShadowAngle&quot;:140,&quot;backgroundShadowOffset&quot;:0}"> 
+      <a href="https://forms.gle/nPUmvMh7oJs2MGgy6" target="_blank" data-link-type="website" style="z-index: 397;"> 
+       <div class="neo-asset-inner" style="background-color: rgba(255, 255, 255, 0); border-color: rgb(51, 51, 51); opacity: 1; border-style: none; background-image: none; box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 0px 0px;"> 
+        <img src="assets/QR_code2.JPG" alt="" /> 
+       </div></a> 
+     </div> 
+     <div class="text-plugin neo-asset" style="height: auto; position: absolute; top: 3525px; left: 242.5px; width: 449px; z-index: 392;" id="asset-1555882864790" data-module-class="neo.TextModule" data-settings="{&quot;css&quot;:{&quot;borderTopStyle&quot;:null,&quot;borderBottomStyle&quot;:null,&quot;borderLeftStyle&quot;:null,&quot;borderRightStyle&quot;:null,&quot;borderAllStyle&quot;:&quot;none&quot;,&quot;borderAllWidth&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderTopColor&quot;:&quot;#ffffff&quot;,&quot;borderLeftColor&quot;:&quot;#ffffff&quot;,&quot;borderBottomColor&quot;:&quot;#ffffff&quot;,&quot;borderRightColor&quot;:&quot;#ffffff&quot;,&quot;borderAllColor&quot;:&quot;#ffffff&quot;,&quot;borderAllRadius&quot;:null,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;paddingAll&quot;:null,&quot;paddingTop&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;0px 0px 0 0 rgba(0,0,0,0.5)&quot;},&quot;bgColor&quot;:&quot;rgba(255, 255, 255, 0)&quot;,&quot;backgroundOpacity&quot;:100,&quot;shadowColor&quot;:&quot;rgba(0,0,0,0.5)&quot;,&quot;backgroundShadowAngle&quot;:140,&quot;backgroundShadowOffset&quot;:0}"> 
+      <div class="neo-asset-inner mCS_destroyed" style="background-color: rgba(255, 255, 255, 0); position: relative; border-color: rgb(255, 255, 255); opacity: 1; border-style: none; background-image: none; box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 0px 0px;" id="asset-1555882864790-neo-asset-inner" spellcheck="false"> 
+       <p><span style="color: #191414;">The survey is still open, if any international friends want to take it. You can either scan the QR code or click on it.</span></p> 
+      </div> 
+     </div> 
+     <div class="text-plugin neo-asset" style="position: absolute; top: 46px; left: 53.5px; width: 856px; height: auto; z-index: 392;" data-module-class="neo.TextModule" data-settings="{&quot;css&quot;:{&quot;borderTopStyle&quot;:null,&quot;borderBottomStyle&quot;:null,&quot;borderLeftStyle&quot;:null,&quot;borderRightStyle&quot;:null,&quot;borderAllStyle&quot;:&quot;none&quot;,&quot;borderAllWidth&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderTopColor&quot;:&quot;#ffffff&quot;,&quot;borderLeftColor&quot;:&quot;#ffffff&quot;,&quot;borderBottomColor&quot;:&quot;#ffffff&quot;,&quot;borderRightColor&quot;:&quot;#ffffff&quot;,&quot;borderAllColor&quot;:&quot;#ffffff&quot;,&quot;borderAllRadius&quot;:null,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;paddingAll&quot;:null,&quot;paddingTop&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;0px 0px 0 0 rgba(0,0,0,0.5)&quot;},&quot;bgColor&quot;:&quot;rgba(255, 255, 255, 0)&quot;,&quot;backgroundOpacity&quot;:100,&quot;shadowColor&quot;:&quot;rgba(0,0,0,0.5)&quot;,&quot;backgroundShadowAngle&quot;:140,&quot;backgroundShadowOffset&quot;:0}" id="asset-1555883153732"> 
+      <div class="neo-asset-inner mCS_destroyed" style="background-color: rgba(255, 255, 255, 0); position: relative; opacity: 1; border-style: none; border-color: rgb(255, 255, 255); background-image: none; box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 0px 0px;" id="asset-1555883153732-neo-asset-inner" spellcheck="false"> 
+       <p><span style="color: #1a1c19;"><strong><span color="#190404">Activities are critical for internationals students to get involved in and adopt to the new cultural environment. Lack of language proficiency is the No.1 reason why internationals students are less active than Americans (Yildirim, 2017). Our survey aims to evaluate the activity level of international students, both in and outside the classroom.</span></strong></span></p> 
+      </div> 
+     </div> 
+     <div class="text-plugin neo-asset" style="z-index: 393; height: auto; position: absolute; top: 2718px; left: 46.5px; width: 861px;" id="asset-1555990194331" data-module-class="neo.TextModule" data-settings="{&quot;css&quot;:{&quot;borderTopStyle&quot;:null,&quot;borderBottomStyle&quot;:null,&quot;borderLeftStyle&quot;:null,&quot;borderRightStyle&quot;:null,&quot;borderAllStyle&quot;:&quot;none&quot;,&quot;borderAllWidth&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderTopColor&quot;:&quot;#ffffff&quot;,&quot;borderLeftColor&quot;:&quot;#ffffff&quot;,&quot;borderBottomColor&quot;:&quot;#ffffff&quot;,&quot;borderRightColor&quot;:&quot;#ffffff&quot;,&quot;borderAllColor&quot;:&quot;#ffffff&quot;,&quot;borderAllRadius&quot;:null,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;paddingAll&quot;:null,&quot;paddingTop&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;0px 0px 0 0 rgba(0,0,0,0.5)&quot;},&quot;bgColor&quot;:&quot;rgba(255, 255, 255, 0)&quot;,&quot;backgroundOpacity&quot;:100,&quot;shadowColor&quot;:&quot;rgba(0,0,0,0.5)&quot;,&quot;backgroundShadowAngle&quot;:140,&quot;backgroundShadowOffset&quot;:0}"> 
+      <div class="neo-asset-inner mCS_destroyed" style="background-color: rgba(255, 255, 255, 0); position: relative; opacity: 1; border-style: none; border-color: rgb(255, 255, 255); background-image: none; box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 0px 0px;" id="asset-1555990194331-neo-asset-inner" spellcheck="false"> 
+       <p><strong><span style="color: #170606;">All the explanations below are based on this Survey Results&nbsp;<a href="https://currurant.github.io/Educ202SurveyResults/" target="_blank" data-link-type="website">Analysis</a>. </span></strong><span style="color: #170606;">(As limited size as our data is, there are some notable partterns.)</span></p> 
+      </div> 
+     </div> 
+     <div class="neo-asset image-plugin" style="z-index: 394; position: absolute; top: 789px; left: 125.141px; width: 682.392px; height: 394px;" id="asset-1555990558912" data-module-class="neo.ImageModule" data-settings="{&quot;css&quot;:{&quot;borderTopStyle&quot;:null,&quot;borderBottomStyle&quot;:null,&quot;borderLeftStyle&quot;:null,&quot;borderRightStyle&quot;:null,&quot;borderAllStyle&quot;:&quot;none&quot;,&quot;borderAllWidth&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderTopColor&quot;:&quot;#333333&quot;,&quot;borderLeftColor&quot;:&quot;#333333&quot;,&quot;borderBottomColor&quot;:&quot;#333333&quot;,&quot;borderRightColor&quot;:&quot;#333333&quot;,&quot;borderAllColor&quot;:&quot;#333333&quot;,&quot;borderAllRadius&quot;:null,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;paddingAll&quot;:null,&quot;paddingTop&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;0px 0px 0 0 rgba(0,0,0,0.5)&quot;},&quot;bgColor&quot;:&quot;rgba(255, 255, 255, 0)&quot;,&quot;backgroundOpacity&quot;:100,&quot;shadowColor&quot;:&quot;rgba(0,0,0,0.5)&quot;,&quot;backgroundShadowAngle&quot;:140,&quot;backgroundShadowOffset&quot;:0}" data-original-width="681" data-original-height="392"> 
+      <div class="neo-asset-inner" style="background-color: rgba(255, 255, 255, 0); border-color: rgb(51, 51, 51); opacity: 1; border-style: none; background-image: none; box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 0px 0px;"> 
+       <img src="assets/Count_of_University_attending.png" alt="" style="width: 680px; height: 392px;" /> 
+      </div> 
+     </div> 
+     <div class="neo-asset image-plugin" style="position: absolute; top: 254px; left: 128.5px; width: 677.423px; height: 407px; z-index: 395;" id="asset-1555990560113" data-module-class="neo.ImageModule" data-settings="{&quot;css&quot;:{&quot;borderTopStyle&quot;:null,&quot;borderBottomStyle&quot;:null,&quot;borderLeftStyle&quot;:null,&quot;borderRightStyle&quot;:null,&quot;borderAllStyle&quot;:&quot;none&quot;,&quot;borderAllWidth&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderTopColor&quot;:null,&quot;borderLeftColor&quot;:null,&quot;borderBottomColor&quot;:null,&quot;borderRightColor&quot;:null,&quot;borderAllColor&quot;:&quot;#333333&quot;,&quot;borderAllRadius&quot;:null,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;paddingAll&quot;:null,&quot;paddingTop&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;0px 0px 0 0 rgba(0,0,0,0.5)&quot;},&quot;bgColor&quot;:&quot;rgba(255, 255, 255, 0)&quot;,&quot;backgroundOpacity&quot;:100,&quot;shadowColor&quot;:&quot;rgba(0,0,0,0.5)&quot;,&quot;backgroundShadowAngle&quot;:140,&quot;backgroundShadowOffset&quot;:0}" data-original-width="675" data-original-height="405"> 
+      <div class="neo-asset-inner" style="background-color: rgba(255, 255, 255, 0); opacity: 1; border-style: none; border-color: rgb(51, 51, 51); background-image: none; box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 0px 0px;"> 
+       <img src="assets/Count_of_Nationality.png" alt="" style="width: 675px; height: 405px;" /> 
+      </div> 
+     </div> 
+     <div class="neo-asset image-plugin" style="z-index: 397; position: absolute; top: 1726px; left: 144.5px; width: 613.333px; height: 368px;" id="asset-1555990562644" data-module-class="neo.ImageModule" data-settings="{&quot;css&quot;:{&quot;borderTopStyle&quot;:null,&quot;borderBottomStyle&quot;:null,&quot;borderLeftStyle&quot;:null,&quot;borderRightStyle&quot;:null,&quot;borderAllStyle&quot;:&quot;none&quot;,&quot;borderAllWidth&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderTopColor&quot;:&quot;#333333&quot;,&quot;borderLeftColor&quot;:&quot;#333333&quot;,&quot;borderBottomColor&quot;:&quot;#333333&quot;,&quot;borderRightColor&quot;:&quot;#333333&quot;,&quot;borderAllColor&quot;:&quot;#333333&quot;,&quot;borderAllRadius&quot;:null,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;paddingAll&quot;:null,&quot;paddingTop&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;0px 0px 0 0 rgba(0,0,0,0.5)&quot;},&quot;bgColor&quot;:&quot;rgba(255, 255, 255, 0)&quot;,&quot;backgroundOpacity&quot;:100,&quot;shadowColor&quot;:&quot;rgba(0,0,0,0.5)&quot;,&quot;backgroundShadowAngle&quot;:140,&quot;backgroundShadowOffset&quot;:0}" data-original-width="611" data-original-height="366"> 
+      <div class="neo-asset-inner" style="background-color: rgba(255, 255, 255, 0); opacity: 1; border-style: none; border-color: rgb(51, 51, 51); background-image: none; box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 0px 0px;"> 
+       <img src="assets/count_of_gender.png" alt="" style="width: 611px; height: 366px;" /> 
+      </div> 
+     </div> 
+     <div class="neo-asset image-plugin" style="z-index: 398; position: absolute; top: 1335px; left: 6.5px; width: 450.968px; height: 270px;" id="asset-1555990565427" data-module-class="neo.ImageModule" data-settings="{&quot;css&quot;:{&quot;borderTopStyle&quot;:null,&quot;borderBottomStyle&quot;:null,&quot;borderLeftStyle&quot;:null,&quot;borderRightStyle&quot;:null,&quot;borderAllStyle&quot;:&quot;none&quot;,&quot;borderAllWidth&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderTopColor&quot;:null,&quot;borderLeftColor&quot;:null,&quot;borderBottomColor&quot;:null,&quot;borderRightColor&quot;:null,&quot;borderAllColor&quot;:&quot;#333333&quot;,&quot;borderAllRadius&quot;:null,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;paddingAll&quot;:null,&quot;paddingTop&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;0px 0px 0 0 rgba(0,0,0,0.5)&quot;},&quot;bgColor&quot;:&quot;rgba(255, 255, 255, 0)&quot;,&quot;backgroundOpacity&quot;:100,&quot;shadowColor&quot;:&quot;rgba(0,0,0,0.5)&quot;,&quot;backgroundShadowAngle&quot;:140,&quot;backgroundShadowOffset&quot;:0}" data-original-width="448" data-original-height="268"> 
+      <div class="neo-asset-inner" style="background-color: rgba(255, 255, 255, 0); opacity: 1; border-style: none; border-color: rgb(51, 51, 51); background-image: none; box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 0px 0px;"> 
+       <img src="assets/Count_of_Academic_Level.png" alt="" style="width: 449px; height: 268px;" /> 
+      </div> 
+     </div> 
+     <div class="text-plugin neo-asset" style="position: absolute; top: 187px; left: 52.5px; height: 31px; width: 406px; z-index: 392;" data-module-class="neo.TextModule" data-settings="{&quot;css&quot;:{&quot;borderTopStyle&quot;:null,&quot;borderBottomStyle&quot;:null,&quot;borderLeftStyle&quot;:null,&quot;borderRightStyle&quot;:null,&quot;borderAllStyle&quot;:&quot;none&quot;,&quot;borderAllWidth&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderTopColor&quot;:&quot;#ffffff&quot;,&quot;borderLeftColor&quot;:&quot;#ffffff&quot;,&quot;borderBottomColor&quot;:&quot;#ffffff&quot;,&quot;borderRightColor&quot;:&quot;#ffffff&quot;,&quot;borderAllColor&quot;:&quot;#ffffff&quot;,&quot;borderAllRadius&quot;:null,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;paddingAll&quot;:null,&quot;paddingTop&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;0px 0px 0 0 rgba(0,0,0,0.5)&quot;},&quot;bgColor&quot;:&quot;rgba(255, 255, 255, 0)&quot;,&quot;backgroundOpacity&quot;:100,&quot;shadowColor&quot;:&quot;rgba(0,0,0,0.5)&quot;,&quot;backgroundShadowAngle&quot;:140,&quot;backgroundShadowOffset&quot;:0}" id="asset-1556029650615"> 
+      <div class="neo-asset-inner mCS_destroyed" style="background-color: rgba(255, 255, 255, 0); position: relative; opacity: 1; border-style: none; border-color: rgb(255, 255, 255); background-image: none; box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 0px 0px;" id="asset-1556029650615-neo-asset-inner" spellcheck="false"> 
+       <p><span style="color: #0d140a;"><strong>Below are some basic information of our participants:</strong></span></p> 
+      </div> 
+     </div> 
+     <div class="text-plugin neo-asset" style="z-index: 399; position: absolute; top: 698px; left: 157.5px; width: 556px; height: auto;" id="asset-1556029722456" data-module-class="neo.TextModule" data-settings="{&quot;css&quot;:{&quot;borderTopStyle&quot;:null,&quot;borderBottomStyle&quot;:null,&quot;borderLeftStyle&quot;:null,&quot;borderRightStyle&quot;:null,&quot;borderAllStyle&quot;:&quot;none&quot;,&quot;borderAllWidth&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderTopColor&quot;:&quot;#ffffff&quot;,&quot;borderLeftColor&quot;:&quot;#ffffff&quot;,&quot;borderBottomColor&quot;:&quot;#ffffff&quot;,&quot;borderRightColor&quot;:&quot;#ffffff&quot;,&quot;borderAllColor&quot;:&quot;#ffffff&quot;,&quot;borderAllRadius&quot;:null,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;paddingAll&quot;:null,&quot;paddingTop&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;0px 0px 0 0 rgba(0,0,0,0.5)&quot;},&quot;bgColor&quot;:&quot;rgba(255, 255, 255, 0)&quot;,&quot;backgroundOpacity&quot;:100,&quot;shadowColor&quot;:&quot;rgba(0,0,0,0.5)&quot;,&quot;backgroundShadowAngle&quot;:140,&quot;backgroundShadowOffset&quot;:0}"> 
+      <div class="neo-asset-inner mCS_destroyed" style="background-color: rgba(255, 255, 255, 0); position: relative; opacity: 1; border-style: none; border-color: rgb(255, 255, 255); background-image: none; box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 0px 0px;" id="asset-1556029722456-neo-asset-inner" spellcheck="false"> 
+       <p><span color="#120b0b" style="color: #120b0b;">Chinese students take up majority of our participants, which is understandable given the <span style="color: #d61515;"><a href="https://currurant.github.io/Map/" target="_blank" data-link-type="website" style="color: #d61515;"><strong>distribution</strong> </a></span>of international students in U.S.</span></p> 
+      </div> 
+     </div> 
+     <div class="text-plugin neo-asset" style="z-index: 399; position: absolute; width: 556px; top: 1221px; left: 170.5px; height: auto;" data-module-class="neo.TextModule" data-settings="{&quot;css&quot;:{&quot;borderTopStyle&quot;:null,&quot;borderBottomStyle&quot;:null,&quot;borderLeftStyle&quot;:null,&quot;borderRightStyle&quot;:null,&quot;borderAllStyle&quot;:&quot;none&quot;,&quot;borderAllWidth&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderTopColor&quot;:&quot;#ffffff&quot;,&quot;borderLeftColor&quot;:&quot;#ffffff&quot;,&quot;borderBottomColor&quot;:&quot;#ffffff&quot;,&quot;borderRightColor&quot;:&quot;#ffffff&quot;,&quot;borderAllColor&quot;:&quot;#ffffff&quot;,&quot;borderAllRadius&quot;:null,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;paddingAll&quot;:null,&quot;paddingTop&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;0px 0px 0 0 rgba(0,0,0,0.5)&quot;},&quot;bgColor&quot;:&quot;rgba(255, 255, 255, 0)&quot;,&quot;backgroundOpacity&quot;:100,&quot;shadowColor&quot;:&quot;rgba(0,0,0,0.5)&quot;,&quot;backgroundShadowAngle&quot;:140,&quot;backgroundShadowOffset&quot;:0}" id="asset-1556030024957"> 
+      <div class="neo-asset-inner mCS_destroyed" style="background-color: rgba(255, 255, 255, 0); position: relative; border-color: rgb(255, 255, 255); opacity: 1; border-style: none; background-image: none; box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 0px 0px;" id="asset-1556030024957-neo-asset-inner" spellcheck="false"> 
+       <p><span color="#120b0b" style="color: #120b0b;">Based on the schools our participants are attending, we can expect that the overall degree of silence in U.S. is worse than our results--these are all top schools in U.S.</span></p> 
+      </div> 
+     </div> 
+     <div class="neo-asset image-plugin" style="z-index: 396; position: absolute; top: 1335px; left: 481px; width: 452.647px; height: 270px;" id="asset-1555990561334" data-module-class="neo.ImageModule" data-settings="{&quot;css&quot;:{&quot;borderTopStyle&quot;:null,&quot;borderBottomStyle&quot;:null,&quot;borderLeftStyle&quot;:null,&quot;borderRightStyle&quot;:null,&quot;borderAllStyle&quot;:&quot;none&quot;,&quot;borderAllWidth&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderTopColor&quot;:&quot;#333333&quot;,&quot;borderLeftColor&quot;:&quot;#333333&quot;,&quot;borderBottomColor&quot;:&quot;#333333&quot;,&quot;borderRightColor&quot;:&quot;#333333&quot;,&quot;borderAllColor&quot;:&quot;#333333&quot;,&quot;borderAllRadius&quot;:null,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;paddingAll&quot;:null,&quot;paddingTop&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;0px 0px 0 0 rgba(0,0,0,0.5)&quot;},&quot;bgColor&quot;:&quot;rgba(255, 255, 255, 0)&quot;,&quot;backgroundOpacity&quot;:100,&quot;shadowColor&quot;:&quot;rgba(0,0,0,0.5)&quot;,&quot;backgroundShadowAngle&quot;:140,&quot;backgroundShadowOffset&quot;:0}" data-original-width="451" data-original-height="268" data-region="content"> 
+      <div class="neo-asset-inner" style="background-color: rgba(255, 255, 255, 0); opacity: 1; border-style: none; border-color: rgb(51, 51, 51); background-image: none; box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 0px 0px;"> 
+       <img src="assets/Count_of_Major.png" alt="" style="width: 451px; height: 268px;" /> 
+      </div> 
+     </div> 
+     <div class="text-plugin neo-asset" style="z-index: 399; position: absolute; top: 1620px; left: 79.5px; width: 301px; height: 46px;" data-module-class="neo.TextModule" data-settings="{&quot;css&quot;:{&quot;borderTopStyle&quot;:null,&quot;borderBottomStyle&quot;:null,&quot;borderLeftStyle&quot;:null,&quot;borderRightStyle&quot;:null,&quot;borderAllStyle&quot;:&quot;none&quot;,&quot;borderAllWidth&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderTopColor&quot;:&quot;#ffffff&quot;,&quot;borderLeftColor&quot;:&quot;#ffffff&quot;,&quot;borderBottomColor&quot;:&quot;#ffffff&quot;,&quot;borderRightColor&quot;:&quot;#ffffff&quot;,&quot;borderAllColor&quot;:&quot;#ffffff&quot;,&quot;borderAllRadius&quot;:null,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;paddingAll&quot;:null,&quot;paddingTop&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;0px 0px 0 0 rgba(0,0,0,0.5)&quot;},&quot;bgColor&quot;:&quot;rgba(255, 255, 255, 0)&quot;,&quot;backgroundOpacity&quot;:100,&quot;shadowColor&quot;:&quot;rgba(0,0,0,0.5)&quot;,&quot;backgroundShadowAngle&quot;:140,&quot;backgroundShadowOffset&quot;:0}" id="asset-1556030218182" data-region="content"> 
+      <div class="neo-asset-inner mCS_destroyed" style="background-color: rgba(255, 255, 255, 0); position: relative; border-color: rgb(255, 255, 255); opacity: 1; border-style: none; background-image: none; box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 0px 0px;" id="asset-1556030218182-neo-asset-inner" spellcheck="false"> 
+       <p><span style="color: #0a0707;">Our participants are with all academic levels except for sophomore</span></p> 
+      </div> 
+     </div> 
+     <div class="text-plugin neo-asset" style="z-index: 399; position: absolute; top: 1625px; left: 536px; width: 352px; height: auto;" data-module-class="neo.TextModule" data-settings="{&quot;css&quot;:{&quot;borderTopStyle&quot;:null,&quot;borderBottomStyle&quot;:null,&quot;borderLeftStyle&quot;:null,&quot;borderRightStyle&quot;:null,&quot;borderAllStyle&quot;:&quot;none&quot;,&quot;borderAllWidth&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderTopColor&quot;:&quot;#ffffff&quot;,&quot;borderLeftColor&quot;:&quot;#ffffff&quot;,&quot;borderBottomColor&quot;:&quot;#ffffff&quot;,&quot;borderRightColor&quot;:&quot;#ffffff&quot;,&quot;borderAllColor&quot;:&quot;#ffffff&quot;,&quot;borderAllRadius&quot;:null,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;paddingAll&quot;:null,&quot;paddingTop&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;0px 0px 0 0 rgba(0,0,0,0.5)&quot;},&quot;bgColor&quot;:&quot;rgba(255, 255, 255, 0)&quot;,&quot;backgroundOpacity&quot;:100,&quot;shadowColor&quot;:&quot;rgba(0,0,0,0.5)&quot;,&quot;backgroundShadowAngle&quot;:140,&quot;backgroundShadowOffset&quot;:0}" id="asset-1556030328834"> 
+      <div class="neo-asset-inner mCS_destroyed" style="background-color: rgba(255, 255, 255, 0); position: relative; border-color: rgb(255, 255, 255); opacity: 1; border-style: none; background-image: none; box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 0px 0px;" id="asset-1556030328834-neo-asset-inner" spellcheck="false"> 
+       <p><span style="color: #030101;">Most participants are studying in the fields with large job markets, such as electrical engineering, statistics and computer science.</span></p> 
+      </div> 
+     </div> 
+     <div class="text-plugin neo-asset" style="z-index: 399; position: absolute; width: 352px; top: 2120px; left: 259px; height: auto;" data-module-class="neo.TextModule" data-settings="{&quot;css&quot;:{&quot;borderTopStyle&quot;:null,&quot;borderBottomStyle&quot;:null,&quot;borderLeftStyle&quot;:null,&quot;borderRightStyle&quot;:null,&quot;borderAllStyle&quot;:&quot;none&quot;,&quot;borderAllWidth&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderTopColor&quot;:&quot;#ffffff&quot;,&quot;borderLeftColor&quot;:&quot;#ffffff&quot;,&quot;borderBottomColor&quot;:&quot;#ffffff&quot;,&quot;borderRightColor&quot;:&quot;#ffffff&quot;,&quot;borderAllColor&quot;:&quot;#ffffff&quot;,&quot;borderAllRadius&quot;:null,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;paddingAll&quot;:null,&quot;paddingTop&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;0px 0px 0 0 rgba(0,0,0,0.5)&quot;},&quot;bgColor&quot;:&quot;rgba(255, 255, 255, 0)&quot;,&quot;backgroundOpacity&quot;:100,&quot;shadowColor&quot;:&quot;rgba(0,0,0,0.5)&quot;,&quot;backgroundShadowAngle&quot;:140,&quot;backgroundShadowOffset&quot;:0}" id="asset-1556030554943"> 
+      <div class="neo-asset-inner mCS_destroyed" style="background-color: rgba(255, 255, 255, 0); position: relative; border-color: rgb(255, 255, 255); opacity: 1; border-style: none; background-image: none; box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 0px 0px;" id="asset-1556030554943-neo-asset-inner" spellcheck="false"> 
+       <p><span color="#030101" style="color: #030101;">Fortuitously, our participants split in half for each gender.</span></p> 
+      </div> 
+     </div> 
+     <div class="text-plugin neo-asset" style="z-index: 393; position: absolute; top: 2231px; left: 63.5px; width: 658px; height: auto;" data-module-class="neo.TextModule" data-settings="{&quot;css&quot;:{&quot;borderTopStyle&quot;:null,&quot;borderBottomStyle&quot;:null,&quot;borderLeftStyle&quot;:null,&quot;borderRightStyle&quot;:null,&quot;borderAllStyle&quot;:&quot;none&quot;,&quot;borderAllWidth&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderTopColor&quot;:&quot;#ffffff&quot;,&quot;borderLeftColor&quot;:&quot;#ffffff&quot;,&quot;borderBottomColor&quot;:&quot;#ffffff&quot;,&quot;borderRightColor&quot;:&quot;#ffffff&quot;,&quot;borderAllColor&quot;:&quot;#ffffff&quot;,&quot;borderAllRadius&quot;:null,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;paddingAll&quot;:null,&quot;paddingTop&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;0px 0px 0 0 rgba(0,0,0,0.5)&quot;},&quot;bgColor&quot;:&quot;rgba(255, 255, 255, 0)&quot;,&quot;backgroundOpacity&quot;:100,&quot;shadowColor&quot;:&quot;rgba(0,0,0,0.5)&quot;,&quot;backgroundShadowAngle&quot;:140,&quot;backgroundShadowOffset&quot;:0}" id="asset-1556030694772"> 
+      <div class="neo-asset-inner mCS_destroyed" style="background-color: rgba(255, 255, 255, 0); position: relative; opacity: 1; border-style: none; border-color: rgb(255, 255, 255); background-image: none; box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 0px 0px;" id="asset-1556030694772-neo-asset-inner" spellcheck="false"> 
+       <p><strong><span color="#170606" style="color: #170606;">Below are some analysis based on the results we have gotten:</span></strong></p> 
+      </div> 
+     </div> 
+     <div class="text-plugin neo-asset" style="z-index: 393; height: 369px; position: absolute; top: 2318px; left: 50px; width: 853px;" data-module-class="neo.TextModule" data-settings="{&quot;css&quot;:{&quot;borderTopStyle&quot;:null,&quot;borderBottomStyle&quot;:null,&quot;borderLeftStyle&quot;:null,&quot;borderRightStyle&quot;:null,&quot;borderAllStyle&quot;:&quot;none&quot;,&quot;borderAllWidth&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderTopColor&quot;:&quot;#ffffff&quot;,&quot;borderLeftColor&quot;:&quot;#ffffff&quot;,&quot;borderBottomColor&quot;:&quot;#ffffff&quot;,&quot;borderRightColor&quot;:&quot;#ffffff&quot;,&quot;borderAllColor&quot;:&quot;#ffffff&quot;,&quot;borderAllRadius&quot;:null,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;paddingAll&quot;:null,&quot;paddingTop&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;0px 0px 0 0 rgba(0,0,0,0.5)&quot;},&quot;bgColor&quot;:&quot;rgba(255, 255, 255, 0)&quot;,&quot;backgroundOpacity&quot;:100,&quot;shadowColor&quot;:&quot;rgba(0,0,0,0.5)&quot;,&quot;backgroundShadowAngle&quot;:140,&quot;backgroundShadowOffset&quot;:0}" id="asset-1556030766697"> 
+      <div class="neo-asset-inner mCS_destroyed" style="background-color: rgba(255, 255, 255, 0); position: relative; opacity: 1; border-style: none; border-color: rgb(255, 255, 255); background-image: none; box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 0px 0px;" id="asset-1556030766697-neo-asset-inner" spellcheck="false"> 
+       <p><span style="color: #0a0505;">We assigned activity level to each participants, according to their activity scores--which are evaluated based on the following:</span></p> 
+       <p><span style="color: #0a0505;">There are three questions that inquire about activity level <strong>in the classroom, club or organization and during a group project</strong>. For each question that asks about activity level, a participant will score the following points with corresponding answer:</span></p> 
+       <p><span style="color: #120606;">3 points: active and forthcoming</span><br /><span style="color: #120606;">2 points: participating when led by others</span><br /><span style="color: #120606;">1 point: quiet and reticent</span></p> 
+       <p><span style="color: #120606;">We then sum up the points for each question and obtain an overall activity <span>score,</span> based on which an overall activity level is assigned:</span></p> 
+       <p><span style="color: #120606;">7 points or greater: active (A person has to be active in at least one category (score 3 points) to be considered overall active.)</span></p> 
+       <p><span style="color: #120606;">4 points or less: inactive (A person who is inactive in at least two categories will be considered overall inactive.)</span></p> 
+       <p><span style="color: #120606;">inbetween: reserved</span></p> 
+       <p><span style="color: #120606;"></span></p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <div class="text-plugin neo-asset" style="z-index: 393; position: absolute; width: 861px; top: 2805px; left: 43.5px; height: auto;" data-module-class="neo.TextModule" data-settings="{&quot;css&quot;:{&quot;borderTopStyle&quot;:null,&quot;borderBottomStyle&quot;:null,&quot;borderLeftStyle&quot;:null,&quot;borderRightStyle&quot;:null,&quot;borderAllStyle&quot;:&quot;none&quot;,&quot;borderAllWidth&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderTopColor&quot;:&quot;#ffffff&quot;,&quot;borderLeftColor&quot;:&quot;#ffffff&quot;,&quot;borderBottomColor&quot;:&quot;#ffffff&quot;,&quot;borderRightColor&quot;:&quot;#ffffff&quot;,&quot;borderAllColor&quot;:&quot;#ffffff&quot;,&quot;borderAllRadius&quot;:null,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;paddingAll&quot;:null,&quot;paddingTop&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;0px 0px 0 0 rgba(0,0,0,0.5)&quot;},&quot;bgColor&quot;:&quot;rgba(255, 255, 255, 0)&quot;,&quot;backgroundOpacity&quot;:100,&quot;shadowColor&quot;:&quot;rgba(0,0,0,0.5)&quot;,&quot;backgroundShadowAngle&quot;:140,&quot;backgroundShadowOffset&quot;:0}" id="asset-1556031880306" aria-disabled="false"> 
+      <div class="neo-asset-inner mCS_destroyed" style="background-color: rgba(255, 255, 255, 0); position: relative; opacity: 1; border-style: none; border-color: rgb(255, 255, 255); background-image: none; box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 0px 0px;" id="asset-1556031880306-neo-asset-inner" spellcheck="false"> 
+       <p><span color="#170606" style="color: #170606;">We analyze each potential factor that can influence the activity level:</span></p> 
+       <p><span color="#170606" style="color: #170606;">Personality</span></p> 
+       <p><span color="#170606" style="color: #170606;">From the personality-activity level contigency table, we can tell that personality is one of the influential factors for activity level--since the only two inactive participants have private personality.</span></p> 
+       <p><span color="#170606" style="color: #170606;">Gender</span></p> 
+       <p><span color="#170606" style="color: #170606;">It appears that girls are more active than guys--there is no inactive girls. However, in guys' defense, we are pretty active in E-sports.</span></p> 
+       <p><span color="#170606" style="color: #170606;">Academic Level</span></p> 
+       <p><span color="#170606" style="color: #170606;">Higher standing participants are less active than lower ones, which can be explained by heavier coursework, job searching or research responsibilities.</span></p> 
+       <p><span color="#170606" style="color: #170606;">English Proficiency</span></p> 
+       <p><span color="#170606" style="color: #170606;">The results coincide with our expectation and former research results (English proficiency is negatively associated with acculturation.) The only two inactive participants show up in the lowest proficiency level, while participants with highest proficiency (at least they think they are) are more likely to be active (50% of them are and there is no inactive)</span></p> 
+       <p><span color="#170606" style="color: #170606;">Instructor and Curriculum</span></p> 
+       <p><span color="#170606" style="color: #170606;">When a person do not care about the personality of the instructor or the relevancy of the course, he/she is likely to be inactive. It should be noted that most participants (19/26) consider personality of the instructor critical for their activity level in class.</span></p> 
+      </div> 
+     </div> 
+     <div class="text-plugin neo-asset" style="z-index: 393; position: absolute; width: 861px; top: 3372px; left: 42.5px; height: auto;" data-module-class="neo.TextModule" data-settings="{&quot;css&quot;:{&quot;borderTopStyle&quot;:null,&quot;borderBottomStyle&quot;:null,&quot;borderLeftStyle&quot;:null,&quot;borderRightStyle&quot;:null,&quot;borderAllStyle&quot;:&quot;none&quot;,&quot;borderAllWidth&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderTopColor&quot;:&quot;#ffffff&quot;,&quot;borderLeftColor&quot;:&quot;#ffffff&quot;,&quot;borderBottomColor&quot;:&quot;#ffffff&quot;,&quot;borderRightColor&quot;:&quot;#ffffff&quot;,&quot;borderAllColor&quot;:&quot;#ffffff&quot;,&quot;borderAllRadius&quot;:null,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;paddingAll&quot;:null,&quot;paddingTop&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;0px 0px 0 0 rgba(0,0,0,0.5)&quot;},&quot;bgColor&quot;:&quot;rgba(255, 255, 255, 0)&quot;,&quot;backgroundOpacity&quot;:100,&quot;shadowColor&quot;:&quot;rgba(0,0,0,0.5)&quot;,&quot;backgroundShadowAngle&quot;:140,&quot;backgroundShadowOffset&quot;:0}" id="asset-1556033045154"> 
+      <div class="neo-asset-inner mCS_destroyed" style="background-color: rgba(255, 255, 255, 0); position: relative; opacity: 1; border-style: none; border-color: rgb(255, 255, 255); background-image: none; box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 0px 0px;" id="asset-1556033045154-neo-asset-inner" spellcheck="false"> 
+       <p><span style="color: #191313;">Being active in class and extracurricular events helps a person adopt to new environment (acculturation), thus pacifies the anxiety from it. Now that we know English proficiency, instructor's personality and academic level all play some influenctial roles in one's activity level, let's figure out <span style="color: #d62929;"><strong><a href="what-s-next.html" target="_self" data-link-type="website" style="color: #d62929;">What's next</a></strong></span>.</span></p> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="global-region bottom footer-bg" id="footer" style="display: block;background-image: none;"> 
+    <div class="global-region-inner" style="position: relative; height: 90px; margin: 0px auto; background-image: url(&quot;//users.neo.registeredsite.com/6/0/3/23077306/assets/adventure-aircraft-airship-36487.jpg&quot;); background-repeat: no-repeat; background-position: 100% 100%; opacity: 1; width: 962px;"> 
+     <div class="neo-asset text-plugin" style="width: 330px; position: absolute; left: 15px; top: 14px; height: 73px;" data-module-class="neo.TextModule" data-settings="{&quot;css&quot;:{&quot;borderTopStyle&quot;:null,&quot;borderBottomStyle&quot;:null,&quot;borderLeftStyle&quot;:null,&quot;borderRightStyle&quot;:null,&quot;borderAllStyle&quot;:&quot;none&quot;,&quot;borderAllWidth&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderTopColor&quot;:&quot;#ffffff&quot;,&quot;borderLeftColor&quot;:&quot;#ffffff&quot;,&quot;borderBottomColor&quot;:&quot;#ffffff&quot;,&quot;borderRightColor&quot;:&quot;#ffffff&quot;,&quot;borderAllColor&quot;:&quot;#ffffff&quot;,&quot;borderAllRadius&quot;:null,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;paddingAll&quot;:null,&quot;paddingTop&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;0px 0px 0 0 rgba(0,0,0,0.5)&quot;},&quot;bgColor&quot;:&quot;rgba(255, 255, 255, 0)&quot;,&quot;backgroundOpacity&quot;:100,&quot;shadowColor&quot;:&quot;rgba(0,0,0,0.5)&quot;,&quot;backgroundShadowAngle&quot;:140,&quot;backgroundShadowOffset&quot;:0}" id="asset-1554919015552"> 
+      <div class="neo-asset-inner mCS_destroyed" style="background-color: rgba(255, 255, 255, 0); opacity: 1; border-style: none; border-color: rgb(255, 255, 255); background-image: none; box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 0px 0px; position: relative;" id="asset-1554919015552-neo-asset-inner" spellcheck="false"> 
+       <p class="xl-text">Contact Us:</p> 
+       <p class="xl-text">currurant@gmail.com</p> 
+      </div> 
+     </div> 
+     <div class="neo-asset snippethtml-plugin" style="position: absolute; width: 34px; height: 34px; top: 33px; left: 698px; z-index: 154" data-module-class="neo.SnippetHtmlModule"> 
+      <div class="neo-asset-inner social-icons"> 
+       <a href="//www.facebook.com"><img src="//repository.neo.myregisteredsite.com/custom-images/social-icons/neo-soc_facebook_w.png" alt="Facebook" /></a> 
+      </div> 
+     </div> 
+     <div class="neo-asset snippethtml-plugin" style="position: absolute; width: 34px; height: 34px; top: 33px; left: 762px; z-index: 155" data-module-class="neo.SnippetHtmlModule"> 
+      <div class="neo-asset-inner social-icons"> 
+       <a href="//www.pinterest.com"><img src="//repository.neo.myregisteredsite.com/custom-images/social-icons/neo-soc_pinterest_w.png" alt="pinterest" /></a> 
+      </div> 
+     </div> 
+     <div class="neo-asset snippethtml-plugin" style="position: absolute; width: 34px; height: 34px; top: 33px; left: 826px; z-index: 156" data-module-class="neo.SnippetHtmlModule"> 
+      <div class="neo-asset-inner social-icons"> 
+       <a href="//www.youtube.com"><img src="//repository.neo.myregisteredsite.com/custom-images/social-icons/neo-soc_youtube_w.png" alt="You Tube" /></a> 
+      </div> 
+     </div> 
+     <div class="neo-asset snippethtml-plugin" style="position: absolute; width: 34px; height: 34px; top: 33px; left: 889px; z-index: 156" data-module-class="neo.SnippetHtmlModule"> 
+      <div class="neo-asset-inner social-icons"> 
+       <a href="//www.twitter.com"><img src="//repository.neo.myregisteredsite.com/custom-images/social-icons/neo-soc_twitter_w.png" alt="Twitter" /></a> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="bottom-area" style="width: 960px;" class=""></div> 
+ </div> 
+ <!--WSP_SC--> 
+ <script type="text/javascript">
+<!--
+document.write('<'+'img style="position:fixed;" src="//scorecard.wspisp.net/logger.php'+'?tag=dW5waWQ6MjMwNzczMDY7MjI%3D&ref='+document.referrer+'&x='+Math.random()+'" '+'width="1" height="1" alt="" '+'>');
+//-->
+</script> 
+ <noscript>
+  <img style="position:fixed;" src="//scorecard.wspisp.net/logger.php?tag=dW5waWQ6MjMwNzczMDY7MjI%3D" width="1" height="1" alt="" />
+ </noscript> 
+ <!--/WSP_SC--> 
+</body>
+</html>
